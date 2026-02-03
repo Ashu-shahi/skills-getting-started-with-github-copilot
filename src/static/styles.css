@@ -80,14 +80,27 @@ section h3 {
   border-top: 1px solid #e0e0e0;
 }
 
+
 .participants-list {
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 0;
   padding-left: 0;
 }
 
 .participants-list li {
   margin-bottom: 6px;
   color: #555;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.delete-participant-btn {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  color: #c00;
+  cursor: pointer;
+  font-size: 1em;
 }
 
 .no-participants {
